@@ -7,10 +7,7 @@
 - Lê Nhựt - nhutrg1998@gmail.com - 0984579878 - Ho Chi Minh University of Science
 
 ## Mô tả vấn đề :
-Thực trạng trong các bệnh viện, việc khám bệnh còn gặp nhiều rắc rối trong giấy tờ và thủ tục.
-Bên cạnh đó việc chăm sóc sức khỏe cho bệnh nhân chưa được tối ưu (bênh nhân uống thuốc không đều đặng,
-không nhớ mình nên kiên những món ăn nào để tốt cho sức khỏe của mình).
-Đồng thời việc khám chữa bệnh làm cho bệnh nhân phải chờ lâu.
+Thực trạng trong các bệnh viện, việc khám bệnh còn gặp nhiều rắc rối trong giấy tờ và thủ tục. Bên cạnh đó việc chăm sóc sức khỏe cho bệnh nhân chưa được tối ưu (bênh nhân uống thuốc không đều đặn, không nhớ mình nên kiêng những món ăn nào để tốt cho sức khỏe của mình). Đồng thời việc khám chữa bệnh làm cho bệnh nhân phải chờ lâu.
 
 ## Ý tưởng và giải pháp :
 Ý tưởng của nhóm tôi nhằm mục đích khác phục những thực trạng trên, đưa áp dụng vào thực tiễn
