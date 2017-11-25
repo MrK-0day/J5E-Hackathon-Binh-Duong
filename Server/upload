@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+rsync -avz -e ssh . qwe@35.198.228.133:/home/qwe/j5e \
+    --exclude '.git' \
+    --exclude '.*.swp'
