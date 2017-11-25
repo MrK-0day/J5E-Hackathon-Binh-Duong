@@ -1,0 +1,59 @@
+<div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+      <li class="nav-item" data-toggle="tooltip" data-placement="right">
+        <a class="nav-link" href="#!/">
+          <i class="fa fa-fw fa-dashboard"></i>
+          <span class="nav-link-text">Đặt lịch khám</span>
+        </a>
+      </li>
+      <li class="nav-item" data-toggle="tooltip" data-placement="right">
+        <a class="nav-link" href="#!/schedule">
+          <i class="fa fa-fw fa-area-chart"></i>
+          <span class="nav-link-text">Lịch tái khám</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="navbar-nav sidenav-toggler">
+      <li class="nav-item" ng-click="toggle()">
+        <a class="nav-link text-center" id="sidenavToggler">
+          <i class="fa fa-fw fa-angle-left"></i>
+        </a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-fw fa-envelope"></i>
+          <span class="d-lg-none">Messages
+            <span class="badge badge-pill badge-primary">12 New</span>
+          </span>
+          <span class="indicator text-primary d-none d-lg-block">
+            <i class="fa fa-fw fa-circle"></i>
+          </span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+          <h6 class="dropdown-header">New Messages:</h6>
+          <div class="dropdown-divider"></div>
+          <div ng-repeat="mess in messages">
+                <a class="dropdown-item">
+                    <strong>{{mess.title}}</strong>
+                    <span class="small float-right text-muted">{{mess.time}}</span>
+                    <div class="dropdown-message small">
+                        {{mess.content}}
+                    </div>
+                </a>
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item small" href="#!/schedule">View all messages</a>
+        </div>
+      </li>
+      <li class="nav-item" ng-class="{'hide':!isAuth}">
+        <a class="nav-link">
+          <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+      </li>
+      <li class="nav-item" ng-class="{'hide':isAuth}">
+          <a class="nav-link">
+            <i class="fa fa-fw fa-sign-in"></i>Login</a>
+        </li>
+    </ul>
+  </div>

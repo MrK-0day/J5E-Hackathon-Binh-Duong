@@ -1,0 +1,46 @@
+<div class="container">
+        <div class="card card-register mx-auto mt-5">
+          <div class="card-header">Register an Account</div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col-md-6">
+                    <label for="exampleInputName">Ho</label>
+                    <input class="form-control" ng-model="lname" type="text" aria-describedby="nameHelp" placeholder="Nhap ho">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="exampleInputLastName">Ten</label>
+                    <input class="form-control" ng-model="fname" type="text" aria-describedby="nameHelp" placeholder="Nhap ten">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Tai khoan</label>
+                <input class="form-control" ng-model="user" type="text" aria-describedby="emailHelp" placeholder="Nha tai khoan">
+              </div>
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col-md-6">
+                    <label for="exampleInputPassword1">Mat khau</label>
+                    <input class="form-control" ng-model="pass" type="password" placeholder="Nhap mat khau">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="exampleConfirmPassword">Nhap lai mat khau</label>
+                    <input class="form-control" ng-model="cpass" type="password" placeholder="Nhap lai mat khau">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                    <div class="alert alert-danger">
+                            {{msg}}
+                    </div>
+              </div>
+              <a class="btn btn-primary btn-block" ng-click="logon()">Dang ky</a>
+            </form>
+            <div class="text-center">
+              <a class="d-block small mt-3" href="#!/login">Login Page</a> 
+            </div>
+          </div>
+        </div>
+      </div>
